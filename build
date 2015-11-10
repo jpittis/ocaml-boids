@@ -1,0 +1,2 @@
+#!/bin/bash
+ocamlfind ocamlc -linkpkg -thread -package core graphics.cma boids.ml -o a.out
